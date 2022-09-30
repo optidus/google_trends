@@ -67,7 +67,14 @@ view: latest_international_top_terms {
 
   dimension: average_score {
     type: number
-    label: "Average Score"
+    label: "Average Score in country"
+    sql: ${TABLE}.average_score ;;
+  }
+
+  measure: average_score_worldwide {
+    type: number
+    label: "Average Score WW"
+    value_format_name: decimal_1
     sql: ${TABLE}.average_score ;;
   }
 
