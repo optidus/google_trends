@@ -24,6 +24,6 @@ explore: international_top_terms {}
 
 explore: top_rising_terms {}
 
-
+explore: latest_intl_top25_ranked {}
 
 explore: latest_international_top_terms {}
