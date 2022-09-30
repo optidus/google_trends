@@ -72,7 +72,7 @@ view: latest_international_top_terms {
   }
 
   measure: average_score_worldwide {
-    type: number
+    type: average
     label: "Average Score WW"
     value_format_name: decimal_1
     sql: ${TABLE}.average_score ;;
