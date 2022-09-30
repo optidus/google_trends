@@ -83,6 +83,13 @@ view: latest_international_top_terms {
     sql: ${TABLE}.average_score ;;
   }
 
+  measure: average_rank_worldwide {
+    type: average
+    label: "Average Rank WW"
+    value_format_name: decimal_1
+    sql: ${TABLE}.rank ;;
+  }
+
   set: detail {
     fields: [
       country_name,
