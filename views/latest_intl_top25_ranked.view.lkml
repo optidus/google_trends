@@ -49,6 +49,11 @@ LIMIT 25
   dimension: latest_international_top_terms_term {
     type: string
     sql: ${TABLE}.latest_international_top_terms_term ;;
+    link: {
+      label: "Google"
+      url: "http://www.google.com/search?q={{ value }}"
+      icon_url: "http://google.com/favicon.ico"
+    }
   }
 
   dimension: latest_international_top_terms_average_rank_worldwide {
