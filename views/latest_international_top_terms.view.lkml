@@ -46,6 +46,11 @@ view: latest_international_top_terms {
   dimension: term {
     type: string
     sql: ${TABLE}.term ;;
+    link: {
+      label: "Google"
+      url: "http://www.google.com/search?q={{ value }}"
+      icon_url: "http://google.com/favicon.ico"
+    }
   }
 
   dimension: week {
