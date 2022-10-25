@@ -27,3 +27,7 @@ explore: top_rising_terms {}
 explore: latest_intl_top25_ranked {}
 
 explore: latest_international_top_terms {}
+
+explore: latest_us_top_terms {}
+
+explore: latest_us_top25_ranked {}
